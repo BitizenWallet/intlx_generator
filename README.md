@@ -26,5 +26,6 @@ Use the plugin:
 
 ```dart
 import "package:your_app/intlx.dart
-AppLocalisations.of(context).intlx("some_key", args: []);
+# The argument list is optional.
+AppLocalisations.of(context).intlx("some_key", []);
 ```
